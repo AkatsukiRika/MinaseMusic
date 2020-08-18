@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MinaseMusic</string>
+    <string name="search_hint">Enter key words…</string>
+    <string name="unable_to_find">Unable to find music</string>
+    <string name="title_placeholder">Title Placeholder</string>
+    <string name="info_placeholder">Info Placeholder</string>
+    <string name="time_placeholder">00:00 / 88:88</string>
+    <string name="info_split"> - </string>
+    <string name="time_split">&#160;/&#160;</string>
+    <string name="play_service">Background playback service</string>
+    <string name="notification_title">Minase Music Player</string>
+    <string name="notification_text">Click to view</string>
+</resources>

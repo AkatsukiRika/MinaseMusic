@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MinaseMusic</string>
+    <string name="search_hint">输入关键字…</string>
+    <string name="unable_to_find">无法查找到结果</string>
+    <string name="title_placeholder">Title Placeholder</string>
+    <string name="info_placeholder">Info Placeholder</string>
+    <string name="time_placeholder">00:00 / 88:88</string>
+    <string name="info_split">&#160;-&#160;</string>
+    <string name="time_split">&#160;/&#160;</string>
+    <string name="play_service">后台播放服务</string>
+    <string name="notification_title">Minase音乐播放器</string>
+    <string name="notification_text">轻点此处以查看</string>
+</resources>
