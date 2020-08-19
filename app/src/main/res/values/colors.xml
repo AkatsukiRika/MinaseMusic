@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#FF9510</color>
     <color name="colorAccent">#49B9F9</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorMilky">#FFFBF0</color>
     <color name="colorGray">#CCCCCC</color>
     <color name="colorRuby">#FB75E4</color>
 </resources>

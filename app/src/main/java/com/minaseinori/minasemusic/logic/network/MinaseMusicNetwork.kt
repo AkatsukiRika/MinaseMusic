@@ -1,5 +1,6 @@
 package com.minaseinori.minasemusic.logic.network
 
+import com.minaseinori.minasemusic.logic.model.RegisterRequest
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -12,6 +13,8 @@ object MinaseMusicNetwork {
     private val musicService = ServiceCreator.create(MusicService::class.java)
 
     suspend fun searchMusic(query: String) = musicService.searchMusic(query).await()
+
+    suspend fun register(request: RegisterRequest) = musicService.register(request).await()
 
     private suspend fun <T> Call<T>.await(): T {
         return suspendCoroutine { continuation ->

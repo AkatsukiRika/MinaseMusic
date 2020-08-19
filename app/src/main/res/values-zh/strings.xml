@@ -11,4 +11,16 @@
     <string name="play_service">后台播放服务</string>
     <string name="notification_title">Minase音乐播放器</string>
     <string name="notification_text">轻点此处以查看</string>
+    <string name="username">用户名</string>
+    <string name="email">电子邮箱</string>
+    <string name="password">密码</string>
+    <string name="password_again">确认密码</string>
+    <string name="username_hint">输入用户名</string>
+    <string name="email_hint">输入电子邮箱</string>
+    <string name="password_hint">输入密码</string>
+    <string name="password_again_hint">再次输入密码</string>
+    <string name="login">登录</string>
+    <string name="create_account">害莫得账号？快整一个！</string>
+    <string name="register">整个账号</string>
+    <string name="register_failed">注册失败</string>
 </resources>

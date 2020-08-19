@@ -14,7 +14,6 @@ class MusicViewModel : ViewModel() {
     val musicList = ArrayList<Music>()
 
     val musicLiveData = Transformations.switchMap(searchLiveData) { query ->
-        Log.d("MusicViewModel", "map switched")
         Repository.searchMusic(query)
     }
 

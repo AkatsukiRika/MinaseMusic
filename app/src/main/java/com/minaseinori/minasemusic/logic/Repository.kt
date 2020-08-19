@@ -3,11 +3,11 @@ package com.minaseinori.minasemusic.logic
 import android.util.Log
 import androidx.lifecycle.liveData
 import com.minaseinori.minasemusic.logic.model.Music
-import com.minaseinori.minasemusic.logic.model.MusicResponse
+import com.minaseinori.minasemusic.logic.model.RegisterRequest
+import com.minaseinori.minasemusic.logic.model.TokenResponse
 import com.minaseinori.minasemusic.logic.network.MinaseMusicNetwork
 import kotlinx.coroutines.Dispatchers
 import java.lang.Exception
-import java.lang.RuntimeException
 import java.util.concurrent.TimeUnit
 
 object Repository {
@@ -19,6 +19,17 @@ object Repository {
         } catch (e: Exception) {
             e.printStackTrace()
             Result.failure<List<Music>>(e)
+        }
+        emit(result)
+    }
+
+    fun register(request: RegisterRequest) = liveData(Dispatchers.IO) {
+        val result = try {
+            val tokenResponse = MinaseMusicNetwork.register(request)
+            Result.success(tokenResponse)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            Result.failure<TokenResponse>(e)
         }
         emit(result)
     }

@@ -10,4 +10,16 @@
     <string name="play_service">Background playback service</string>
     <string name="notification_title">Minase Music Player</string>
     <string name="notification_text">Click to view</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_again">Confirm Password</string>
+    <string name="username_hint">Your username here…</string>
+    <string name="email_hint">Your email here…</string>
+    <string name="password_hint">Your password here…</string>
+    <string name="password_again_hint">Your password again…</string>
+    <string name="login">Login</string>
+    <string name="create_account">No account yet? Create one!</string>
+    <string name="register">Create Account</string>
+    <string name="register_failed">Register failed</string>
 </resources>
